@@ -8,6 +8,7 @@ namespace HomeWorkPolyakov3_1P9
 {
     internal class Computer
     {
+        public Client Client { get; set; }
         Mouse mouse;
         Screen screen;
         Keyboard keyboard;

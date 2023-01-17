@@ -8,5 +8,6 @@ namespace HomeWorkPolyakov3_1P9
 {
     internal class Client
     {
+        public Configuration Configuration { get; set; }
     }
 }

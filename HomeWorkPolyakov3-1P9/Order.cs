@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace HomeWorkPolyakov3_1P9
 {
-    internal class Order
-    {
+    internal class Order: Client
+    {        
+        public Order() 
+        {
+            Console.WriteLine("Заказ");
+        }
     }
 }
